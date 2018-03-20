@@ -1,0 +1,79 @@
+html,
+body,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#carousel {
+    position: relative;
+    width: 480px;
+    height: 360px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.img-wrapper li {
+    position: absolute;
+    display: none;
+}
+
+.btn {
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 60px;
+    font-size: 25px;
+    background: rgba(0, 0, 0, .2);
+    color: #eee;
+    transform: translateY(-50%);
+    top: 50%;
+}
+
+.btn.pre-btn {
+    left: 10px;
+}
+
+.btn.next-btn {
+    right: 10px;
+}
+
+.dot-ct {
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 0;
+}
+
+.dot-ct li {
+    display: inline-block;
+    width: 40px;
+    height: 10px;
+    background: rgba(0, 0, 0, .3);
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.dot-ct li.on {
+    background: rgba(238, 238, 238, .5);
+}
