@@ -5,8 +5,9 @@
 ###你来实现，会抽象出哪些函数(or接口):
 - 3个函数，分别是playNext()(轮播下一张),playPrev()(轮播前一张),autoPlay()(自动轮播)
 
-####左右滚动无限循环轮播: [预览](https://github.com/osborne1126/Carousel/carousel.html)
+####左右滚动无限循环轮播: [预览](https://osborne1126.github.io/Carousel/carousel.html)
 
-####渐变轮播: [预览](https://github.com/osborne1126/Carousel/fade_carousel.html)
+####渐变轮播: [预览]( https://osborne1126.github.io/Carousel/fade_carousel.html)
 
-####无缝轮播: [预览](https://github.com/osborne1126/Carousel/index.html)
+####无缝轮播: [预览]( https://osborne1126.github.io/Carousel/index.html)
+
